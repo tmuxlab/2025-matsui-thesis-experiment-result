@@ -6,8 +6,8 @@
 
 | ドキュメント | 説明 |
 |-------------|------|
-| [appendix_c_SWWSP.pdf](regression_result_SWWSP.pdf) | SWWSP（Approach A）の回帰結果 |
-| [appendix_d_MWWP.pdf](regression_result_MWWP.pdf) | MWWP（Approach B）の回帰結果 |
+| [regression_result_SWWSP.pdf](regression_result_SWWSP.pdf) | SWWSP（Approach A）の回帰結果 |
+| [regression_result_MWWP.pdf](regression_result_MWWP.pdf) | MWWP（Approach B）の回帰結果 |
 
 ##  回帰結果
 
