@@ -1,0 +1,47 @@
+\documentclass[12pt]{article}
+\renewcommand{\figurename}{Fig}
+\usepackage{xiaolab}
+\usepackage[dvipdfmx]{graphicx}
+\usepackage{tocloft}
+\usepackage{here}
+\usepackage{amsmath,amssymb,mathtools} %数学記号の記述に使用
+\usepackage{algorithm,algpseudocode} %アルゴリズムの記述に使用
+\usepackage[dvipdfmx]{color} %文字の色付けに使用
+\usepackage{booktabs}
+\usepackage{bm}
+\usepackage{url}
+\usepackage{lscape} % 図表を横向きにするために使用
+\usepackage{arydshln}
+\usepackage[hang,small,bf]{caption}
+\usepackage[subrefformat=parens]{subcaption}
+\usepackage[titletoc,title]{appendix}
+\captionsetup{compatibility=false}
+
+\begin{document}
+\pagestyle{empty}
+
+%目次
+\clearpage
+\begin{appendices}
+  \makeatletter
+    \renewcommand{\theequation}{% 式番号の付け方
+    \thesection.\arabic{equation}}
+    \@addtoreset{equation}{section}
+
+    \renewcommand{\thefigure}{% 図番号の付け方
+    \thesection.\arabic{figure}}
+    \@addtoreset{figure}{section}
+
+    \renewcommand{\thetable}{% 表番号の付け方
+    \thesection.\arabic{table}}
+    \@addtoreset{table}{section}
+
+    \renewcommand{\thealgorithm}{
+    \thesection.\arabic{algorithm}}
+    \@addtoreset{algorithm}{section}
+  \makeatother
+  \floatname{algorithm}{}
+  \input{appendix_A}
+\end{appendices}
+
+\end{document}
