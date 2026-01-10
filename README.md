@@ -7,7 +7,7 @@
 | ドキュメント | 説明 |
 |-------------|------|
 | [regression_result_SWWSP.pdf](regression_result_SWWSP.pdf) | SWWSPの回帰結果 |
-| [regression_result_MWWP.pdf](regression_result_MWWP.pdf) | MWWPの回帰結果 |
+| [regression_result_MWP.pdf](regression_result_MWP.pdf) | MWWPの回帰結果 |
 
 ##  回帰結果
 
